@@ -24,7 +24,7 @@ def main(page: ft.Page):
         content=ft.Image(
             src="assets/p.png",  # или локальный путь (/assets/image.png)
             width=200,
-            height=200,
+            # height=200,
             fit=ft.ImageFit.CONTAIN
         ),
         on_tap=on_image_click
